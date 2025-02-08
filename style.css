@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 17, 48);
+}
+.container{
+    width: 70%;
+    background-color: rgb(59, 54, 54);
+    margin: 50px auto;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    color: #a7a0a0;
+}
+.input{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+    margin-top: 15px;
+
+}
+.input input{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(75, 66, 66);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.input button{
+    background-color: transparent;
+    border: none;
+    color: #865eac;
+    cursor: pointer;
+    margin-left: 15px;
+}
+h4{
+    margin-top: 20px;
+}
+.divs{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(41, 37, 37);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.edit{
+    background-color: transparent;
+    color: #865eac;
+    border: none;
+    cursor: pointer;
+}
+.deleteButton{
+    background-color: transparent;
+    color: rgb(221, 18, 18);
+    border: none;
+    cursor: pointer;
+
+}
+.complete{
+    text-decoration: line-through;
+    color: rgb(30, 120, 199);
+}
