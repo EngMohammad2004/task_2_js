@@ -1,4 +1,4 @@
-let array = JSON.parse(localStorage.getItem("tasks",[]));
+let array = JSON.parse(localStorage.getItem("tasks") || "[]");
 
 let addTask = document.getElementById("add");
 let input = document.getElementById("input");
